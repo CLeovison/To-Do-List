@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    background: rgb(33,32,47);
+    background: linear-gradient(90deg, rgba(33,32,47,1) 0%, rgba(55,93,133,1) 37%, rgba(38,83,92,1) 54%);
+    color: #fff;
+}
+
+/*Start of Header*/
+.tdl-header{
+    padding-left: 21rem;
+    padding-bottom: 2rem;
+    font-size: 20px;
+    margin-top: 2rem;
+    
+}
+.tdl-name{
+    font-family: 'PT Serif', serif;
+    width: 30%;
+    color: #fff;
+    font-size: 25px;
+    background: none;
+    border: none;
+    appearance: none;
+    outline: none;
+}
+/*End of Header*/
+
+/*Start of Form Section*/
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tdl-submit{
+   border: none;
+   outline: none;
+   appearance: none;
+   background:none;
+   cursor: pointer;
+   font-size: 17px;
+}
+#tdl-inputxt{
+    padding-left: 1rem;
+    width:300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+}
+
+/*End of Form Section*/
+/*Start of Main Title*/
+.tdl-task-title{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+/*End of Main Title*/
+
+/*Start of Task List Content*/
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+.tdl-text{
+    margin-left: 1rem;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/*End of Task List Content*/
+
+/*Start of Action Buttons*/
+.tdl-actionbtns{
+    display: flex;
+  
+}
+.tdl-edit, .tdl-delete{
+    padding-left: 1rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background:none;
+    cursor: pointer;
+    
+}
+
+#tasks-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+/*End of Action Buttons*/
+
+/*Start of Media Query Section*/
+@media(max-width: 600px){
+
+}

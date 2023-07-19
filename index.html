@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Clark Leovison C. Rey">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="tdl-header">
+        <h2 class="tdl-title">Hey There, <input type="text" id="tdl-name" class="tdl-name"></h2>
+        </div>
+    </header>
+      
+ <main>
+    <section class="To-Do-List">
+        <form id="tdl-form">
+            <input type="text" name="to-do-list" id="tdl-inputxt" placeholder="What's on your Mind?">
+            <input type="submit" value="Add Task" class="tdl-submit">
+        </form>
+
+        <div class="tdl-main-title">
+            <h2 class="tdl-task-title">Tasks</h2>
+            </div>
+            
+            
+           <div id="tasks-container">
+               
+               <!-- <div class="tasks">
+                 <div class="tdl-task">
+                    <div class="tdl-main-task">
+                        <input type="text" id="tdl-text" class="tdl-text" placeholder="Try" readonly>
+                    </div>
+               
+                    </div>
+                    <div class="tdl-actionbtns">
+                        <button class="tdl-edit">Edit</button>
+                        <button class="tdl-delete">Delete</button>
+                    </div>
+               
+                </div> -->
+           </div>
+
+    </section>
+ </main>
+ <script src="script/main.js"></script>
+</body>
+</html>
